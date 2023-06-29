@@ -40,4 +40,5 @@ public class TranslationMessageDetection implements MessageDetection {
     public ChatDetectionConfiguration chatDetectionConfiguration(Player player, DynamicConfigurationDirectory dynamicConfigurationDirectory) {
         return ChatDetectionManager.getInstance().getConfiguration("language");
     }
+
 }

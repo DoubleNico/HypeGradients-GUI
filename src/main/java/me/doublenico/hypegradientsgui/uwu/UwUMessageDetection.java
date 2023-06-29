@@ -36,4 +36,5 @@ public class UwUMessageDetection implements MessageDetection {
     public ChatDetectionConfiguration chatDetectionConfiguration(Player player, DynamicConfigurationDirectory dynamicConfigurationDirectory) {
         return new ChatDetectionConfiguration(dynamicConfigurationDirectory, "uwu", true);
     }
+
 }
