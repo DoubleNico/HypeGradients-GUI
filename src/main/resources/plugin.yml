@@ -1,0 +1,8 @@
+name: HypeGradientsGUI
+version: '${project.version}'
+main: me.doublenico.hypegradientsgui.HypeGradientsGUI
+api-version: 1.19
+depend: [ HypeGradients ]
+authors: [ DoubleNico ]
+commands:
+  language:
